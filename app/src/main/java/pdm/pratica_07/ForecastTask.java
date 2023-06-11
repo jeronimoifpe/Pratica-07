@@ -18,7 +18,7 @@ public class ForecastTask extends AsyncTask<String, Void, List<String>> {
     private final String LOG_TAG = ForecastTask.class.getSimpleName();
     private List<String> forecast = null;
     private ForecastListener listener = null;
-    private final String APPID = "INSIRA AQUI SUA CHAVE";
+    private final String APPID = "a11ac945f2360e8cf7d496e7cb53dc00";
     public interface ForecastListener {
         void showForecast(List<String> forecast);
     }
