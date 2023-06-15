@@ -5,12 +5,11 @@ import java.util.List;
 import retrofit2.Call;
 
 public class WeatherForecast implements WeatherForecastAPI{
-
     @Override
     public Call<WeatherForecast> getForecast(String city) {
         return null;
     }
-
+//public class WeatherForecast{
     static class City {
         static class Coordinates {
             Float lon, lat;

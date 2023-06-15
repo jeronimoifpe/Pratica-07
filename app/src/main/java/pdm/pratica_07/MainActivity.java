@@ -19,8 +19,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity implements ForecastTask.ForecastListener{
-
-    WeatherForecastAPI forecastAPI;
+     WeatherForecastAPI forecastAPI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
