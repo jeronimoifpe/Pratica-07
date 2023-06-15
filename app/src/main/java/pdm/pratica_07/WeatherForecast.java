@@ -2,7 +2,15 @@ package pdm.pratica_07;
 
 import java.util.List;
 
-public class WeatherForecast {
+import retrofit2.Call;
+
+public class WeatherForecast implements WeatherForecastAPI{
+
+    @Override
+    public Call<WeatherForecast> getForecast(String city) {
+        return null;
+    }
+
     static class City {
         static class Coordinates {
             Float lon, lat;
